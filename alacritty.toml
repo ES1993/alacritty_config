@@ -1,0 +1,22 @@
+[env]
+https_proxy = "http://127.0.0.1:7890"
+http_proxy = "http://127.0.0.1:7890"
+all_proxy = "socks5://127.0.0.1:7890"
+
+[window]
+startup_mode = "Fullscreen"
+
+[font]
+size = 16
+normal = { family = "CommitMono Nerd Font", style = "Regular" }
+
+[keyboard]
+bindings = [
+  { key = "H", mods = "Command", chars = "\u0008" },
+  { key = "J", mods = "Command", chars = "\u000a" },
+  { key = "K", mods = "Command", chars = "\u000b" },
+  { key = "L", mods = "Command", chars = "\u000c" },
+  { key = "N", mods = "Command", chars = "\u000e" },
+  { key = "P", mods = "Command", chars = "\u0010" },
+  { key = "/", mods = "Command", chars = "\u001f" },
+]
